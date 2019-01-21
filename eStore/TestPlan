@@ -1,0 +1,71 @@
+Author info:
+Name: Alex Lai
+Student number: 0920158
+Email: Alexlai7704@gmail.com
+Assignment number: A3
+Class: CIS*2430
+Date: November 30th,2016
+
+TEST PLAN
+
+Test 1: Add a book with good data
+Instruction: Press commands menu button.
+Expected output: Drop down menu with add, search and quit appears
+Success: true
+Instruction: Press the add button
+Expected output: Screen changes to add menu
+Success: true
+Instructon: Press the scroll down menu that represents the type
+Expected output: Author and Publisher input boxes are visible,
+maker is not.
+Success: true
+Instruction: Input good data (no eronious data) for all fields. 
+Expected output: no errors should occur, just lets you add data to the text fields.
+Success: true
+Instruction: Press add button
+Expected output: Message area at the bottom should display that a product has been added, displaying the name and product id
+Success: true, complication: Press add twice to clear fields of product that was already added.
+
+Test 2: Add a electronic with bad data
+Instruction: Follow the first 3 instructions of Test 1
+Instruction: Input bad data, leave some fields blank, enter a non digit in the year field.
+Instruction: Press add button
+Expected output: Message area at the bottom should display that a product was not able to be added to the list, fields should be cleared and the user can try again. 
+Success: true
+
+Test 3: Quit program using both methods. 
+Instruction: Press the x in the top right corner
+Expected output: Program should exit
+Success: true
+Instruction: Run the program and click the quit button in the commands menu
+Expected output: Program exits.
+Success: true
+
+Test 4: Search for a product
+Instruction: follow first 2 steps in Test 1.
+Instruction: Press the search button on the commands menu
+Expected output: Screen should now show a Search menu not the Main menu
+Success: true
+Instruction: Add good data in fields, make sure a product is in the list by creating one in the add menu first.
+Expected output: Fields should let you add data to them.
+Success: true
+Instruction: press the search button.
+Expected output: The product you searched for should be in the displayed in the messages area.
+Success: true
+
+Test 5: Search for a product not in the list.
+Instruction: navigate to the search menu and add data to fields that you know are not in the list.
+Instruction: Press the search button
+Expected output: In the messages area, it should tell you that it could not find the product. 
+Success: true
+
+Test 6: Check reset fields.
+Instruction: Navigate to the add menu and put data in all fields.
+Instruction: Press the reset button
+Expected output: All fields you entered should be cleared.
+Success: true
+Instriction: retest for the search menu following these same instructions.
+
+End of test plan.
+
+

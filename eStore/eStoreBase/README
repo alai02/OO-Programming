@@ -1,0 +1,11 @@
+Name: Alex Lai
+Student Number: 0920158
+Email: alai02@main.uoguelph.ca
+Class: CIS*2430
+Assignment: A1: Create a virtual store that has two Array Lists one for books and the other for electronics. The program searches the list and can also add new elements to the lists. 
+Compilation/Usage: Right click eStore.java and click run on Net Beans with the project open.
+Known Limitations: This program only works with 2 kinds of products: books and electronics. Some error checking is present but it will not work for all exceptions
+References: This helped me understand the split function more and how to implement it - https://www.tutorialspoint.com/java/java_string_split.htm
+            This helped me grasp the idea of encapsulation more - https://www.tutorialspoint.com/java/java_encapsulation.htm
+            Read the assignment description and discussion board to better understand what the assignment is asking. - https://courselink.uoguelph.ca/d2l/le/435968/discussions/threads/1851742/View
+            This helped me figure out how to split strings  - http://stackoverflow.com/questions/225337/how-do-i-split-a-string-with-any-whitespace-chars-as-delimiters
